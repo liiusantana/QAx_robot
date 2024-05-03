@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-05-02T22:15:25.404742" rpa="false" schemaversion="5">
+<suite id="s1" name="Player" source="C:\QAx\projects\parodify-robot\player.robot">
+<test id="s1-t1" name="Deve tocar uma musica" line="5">
+<kw name="New Page" owner="Browser">
+<msg time="2024-05-02T22:15:30.806565" level="INFO">Successfully initialized new page object and opened url: https://parodify.vercel.app</msg>
+<msg time="2024-05-02T22:15:30.806565" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<arg>https://parodify.vercel.app</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-05-02T22:15:26.185218" elapsed="4.621347"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2024-05-02T22:15:32.000634" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/fail-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/fail-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-05-02T22:15:32.000634" level="INFO">See also file:///C:/QAx/projects/parodify-robot/logs/playwright-log.txt for additional details.</msg>
+<msg time="2024-05-02T22:15:32.002635" level="FAIL">Error: locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+</msg>
+<arg>cs=.logged-user</arg>
+<arg>contains</arg>
+<arg>Fernando Papito</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="FAIL" start="2024-05-02T22:15:30.811045" elapsed="1.209238">Error: locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+</status>
+</kw>
+<status status="FAIL" start="2024-05-02T22:15:26.181696" elapsed="5.839591">Error: locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+</status>
+</test>
+<status status="FAIL" start="2024-05-02T22:15:25.406737" elapsed="6.667843"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Player">Player</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

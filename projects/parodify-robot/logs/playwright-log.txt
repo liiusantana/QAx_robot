@@ -1,0 +1,493 @@
+{"level":30,"time":"2024-05-03T01:15:25.927Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Listening on 60232"}
+(node:16408) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-03T01:15:26.179Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:26.180Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:26.183Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:26.183Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:26.187Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-03T01:15:26.187Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2024-05-03T01:15:26.981Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T01:15:27.097Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-03T01:15:27.098Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T01:15:30.804Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-03T01:15:30.812Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:30.813Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:30.816Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:30.817Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:30.880Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:30.880Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:30.881Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:30.881Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:30.911Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:30.911Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:30.912Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:30.912Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:30.941Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:30.941Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:30.942Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:30.942Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:30.971Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:30.971Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:30.972Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:30.972Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.001Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.001Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.002Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.002Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.032Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.032Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.033Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.033Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.061Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.061Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.062Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.062Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.091Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.091Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.092Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.092Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.121Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.121Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.121Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.121Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-05-03T01:15:31.150Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.150Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.151Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.151Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.181Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.181Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.182Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.182Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.214Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.214Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.214Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.214Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.251Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.251Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.252Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.252Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.288Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.288Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.288Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+================= Original suppressed error =================
+{"level":30,"time":"2024-05-03T01:15:31.288Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.320Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.321Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.321Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.322Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.352Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.352Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.352Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+{"level":30,"time":"2024-05-03T01:15:31.352Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.392Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.392Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.392Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.393Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.428Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.428Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.429Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.429Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.467Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.467Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+================= Original suppressed error =================
+{"level":50,"time":"2024-05-03T01:15:31.468Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.468Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.519Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.519Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.521Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.521Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.560Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.560Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.561Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.561Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.598Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.598Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.599Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.599Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.638Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.638Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.639Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.639Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.677Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.677Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.678Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.678Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.716Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.716Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.717Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.717Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.756Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.756Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.757Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.758Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.792Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.792Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.792Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.792Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.833Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.833Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.834Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+{"level":30,"time":"2024-05-03T01:15:31.834Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+================= Original suppressed error =================
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.872Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T01:15:31.872Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with cs=.logged-user in page."}
+{"level":50,"time":"2024-05-03T01:15:31.873Z","pid":16408,"hostname":"IVENTIS_PETZ","err":{"type":"Error","message":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n","stack":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n\n    at getTextContent (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9466:33)\n    at getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:9480:21)\n    at async PlaywrightServer.getText (C:\\Python312\\Lib\\site-packages\\Browser\\wrapper\\index.js:10708:28)","name":"Error"},"msg":"locator.elementHandle: Unknown engine \"cs\" while parsing selector cs=.logged-user\nCall log:\n  \u001b[2m- waiting for locator('cs=.logged-user')\u001b[22m\n"}
+================= Original suppressed error =================
+{"level":30,"time":"2024-05-03T01:15:31.873Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Error of node method  getText"}
+locator.elementHandle: Unknown engine "cs" while parsing selector cs=.logged-user
+Call log:
+  [2m- waiting for locator('cs=.logged-user')[22m
+
+    at getTextContent (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9466:33)
+    at getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:9480:21)
+    at async PlaywrightServer.getText (C:\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-05-03T01:15:31.896Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-05-03T01:15:31.897Z","pid":16408,"hostname":"IVENTIS_PETZ","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\parodify-robot\\logs\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-05-03T01:15:31.998Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-05-03T01:15:32.027Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.029Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.032Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.034Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.037Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T01:15:32.038Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=1e0982d0-5672-4236-a063-4bac051fc08f"}
+{"level":30,"time":"2024-05-03T01:15:32.038Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T01:15:32.041Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.043Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.046Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T01:15:32.046Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T01:15:32.049Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T01:15:32.049Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T01:15:32.052Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=1e0982d0-5672-4236-a063-4bac051fc08f"}
+{"level":30,"time":"2024-05-03T01:15:32.052Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T01:15:32.056Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.059Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.061Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T01:15:32.061Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=1e0982d0-5672-4236-a063-4bac051fc08f"}
+{"level":30,"time":"2024-05-03T01:15:32.061Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T01:15:32.063Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-05-03T01:15:32.070Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Removed page=5944956c-efdc-4528-84ac-31643c41d35b from context=d76c8564-af91-4501-8e86-faeb7500aeda page stack"}
+{"level":30,"time":"2024-05-03T01:15:32.072Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-05-03T01:15:32.078Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.078Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T01:15:32.743Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-03T01:15:32.832Z","pid":16408,"hostname":"IVENTIS_PETZ","msg":"End of node method closeAllBrowsers"}

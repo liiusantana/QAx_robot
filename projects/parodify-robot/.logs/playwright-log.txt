@@ -1,0 +1,66 @@
+{"level":30,"time":"2024-05-03T02:24:00.756Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Listening on 62710"}
+(node:11400) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-05-03T02:24:00.978Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2024-05-03T02:24:00.978Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Initializing extension: C:\\QAx\\projects\\parodify-robot\\resources\\module.js"}
+{"level":30,"time":"2024-05-03T02:24:00.980Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2024-05-03T02:24:00.979Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Adding 1 keywords from JS Extension"}
+{"level":30,"time":"2024-05-03T02:24:01.017Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:01.017Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:01.021Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:01.021Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:01.026Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-05-03T02:24:01.258Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-05-03T02:24:01.259Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-05-03T02:24:01.259Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-05-03T02:24:01.264Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-05-03T02:24:01.265Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-05-03T02:24:01.277Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T02:24:01.530Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Video path: undefined"}
+{"level":30,"time":"2024-05-03T02:24:01.530Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T02:24:01.549Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method newPage"}
+{"level":30,"time":"2024-05-03T02:24:01.566Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method goTo"}
+{"level":30,"time":"2024-05-03T02:24:02.756Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method goTo"}
+{"level":30,"time":"2024-05-03T02:24:02.761Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getText"}
+{"level":30,"time":"2024-05-03T02:24:02.762Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2024-05-03T02:24:02.815Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Retrieved text for element css=.logged-user containing Fernando Papito"}
+{"level":30,"time":"2024-05-03T02:24:02.815Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getText"}
+{"level":30,"time":"2024-05-03T02:24:02.822Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method click"}
+{"level":30,"time":"2024-05-03T02:24:02.823Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with //div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2024-05-03T02:24:02.882Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method click"}
+{"level":30,"time":"2024-05-03T02:24:02.887Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-05-03T02:24:02.888Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with //div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2024-05-03T02:24:02.893Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-05-03T02:24:02.897Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2024-05-03T02:24:02.897Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Strict mode is enabled, find Locator with //div[contains(@class,\"song\")]//h6[text()=\"Smells Like Test Script\"]/..//button[contains(@class,\"play\")] in page."}
+{"level":30,"time":"2024-05-03T02:24:02.901Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2024-05-03T02:24:02.905Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-05-03T02:24:02.906Z","pid":11400,"hostname":"IVENTIS_PETZ","Take screenshot with options: ":{"path":"C:\\QAx\\projects\\parodify-robot\\.logs\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-05-03T02:24:03.030Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-05-03T02:24:03.038Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.042Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.044Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.046Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.049Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T02:24:03.049Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=9b7fc29e-7eb8-46c0-8595-020675af1b59"}
+{"level":30,"time":"2024-05-03T02:24:03.049Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T02:24:03.054Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.056Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.058Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T02:24:03.058Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T02:24:03.061Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T02:24:03.062Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-05-03T02:24:03.065Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=9b7fc29e-7eb8-46c0-8595-020675af1b59"}
+{"level":30,"time":"2024-05-03T02:24:03.065Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T02:24:03.068Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.070Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.072Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active context"}
+{"level":30,"time":"2024-05-03T02:24:03.072Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changing current active page: page=9b7fc29e-7eb8-46c0-8595-020675af1b59"}
+{"level":30,"time":"2024-05-03T02:24:03.072Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Changed active page"}
+{"level":30,"time":"2024-05-03T02:24:03.075Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-05-03T02:24:03.086Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Removed page=a7555da3-8470-449b-ae0f-49106d49e7e7 from context=13e94270-b54f-4924-a51f-988be1b18b98 page stack"}
+{"level":30,"time":"2024-05-03T02:24:03.116Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-05-03T02:24:03.129Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.129Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-05-03T02:24:03.167Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-05-03T02:24:03.329Z","pid":11400,"hostname":"IVENTIS_PETZ","msg":"End of node method closeAllBrowsers"}
